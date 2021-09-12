@@ -23,6 +23,7 @@ inputField.addEventListener('input',
   }, 500),
 );
 
+
 function onSearch() {
   resetSearch();
   foundCountry = inputField.value;
