@@ -8,8 +8,8 @@ import '@pnotify/core/dist/BrightTheme.css';
 const debounce = require('lodash.debounce');
 let foundCountry = ' ';
 
-// function fetchCountries(searchQuery) {
-//     return fetch(`https://restcountries.eu/rest/v2/name/${searchQuery}`).then(res => {return res.json() });
+// function fetchCountries() {
+//     return fetch(`https://restcountries.eu/rest/v2/name/ukraine`).then(res => {return res.json() });
    
 // }
 
