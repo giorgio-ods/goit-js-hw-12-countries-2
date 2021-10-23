@@ -27,9 +27,10 @@ inputField.addEventListener('input',
 function onSearch() {
   resetSearch();
   foundCountry = inputField.value;
+  if (foundCountry.trim() !== ""){
   return fetchCountries(foundCountry)
     .then(renderMarkup)
-    .catch(err => console.log(err));
+    .catch(err => console.log(err));}
 }
 
 function resetSearch() {
